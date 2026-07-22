@@ -1,0 +1,23 @@
+#project 1
+#student grade calculator
+#created by mahi
+maths = int(input("enter your marks:"))
+science =int(input("enter your marks:"))
+english =int(input("enter your marks:"))
+hindi =int(input("enter your marks:"))
+computer =int(input("enter your marks:"))
+total = maths + science + english + hindi + computer
+percentage = (total / 500) *100
+print ("Total:",total)
+print ("Percentage:",percentage)
+if percentage >= 90:
+	print ("grade: A")
+elif percentage >= 75: 
+    print ("grade: B")
+elif percentage >= 60:
+	print ("grade: C")
+elif percentage >= 40:
+    print ("grade: D")
+else:
+    print ("fail")
+ 
